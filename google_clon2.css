@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+
+
+#page{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Nanum Gothic', sans-serif;
+
+    
+}
+#header{
+    height: 48px;
+}
+
+#header2>div{
+    display: flex;
+    align-items: center;
+}
+
+#header2{
+    
+    display: flex;
+    justify-content: space-between;
+}
+#header2>div>a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#header2>div>#login {
+    background-color: #1a73e8;
+    color: white;
+    width: 60px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#header2>div>a:hover{
+    text-decoration: underline;
+}
+
+
+
+#logo{
+    height: 132px;
+    text-align: center;
+}
+
+#search{
+    height: 140px;
+}
+
+
+#search_input input{
+    width: 582px;
+    height: 44px;
+    border-radius: 30px;
+    border: 1px solid rgb(223, 225, 229); 
+}
+
+#search_gon{
+    display: flex;
+    justify-content: center;
+}
+
+#search_input{
+    position: relative;
+    
+}
+
+.fa-search{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.search_icon{
+    position: absolute;
+    top: 15px;
+   left: 540px;
+}
+
+#search_button{
+    height: 35px;
+     display: flex;
+    justify-content: center;
+ 
+}
+#search_button>button {
+    margin: 10px;
+    height: 30px;
+    line-height: 30px;
+    border: 0px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+#search_button>button:hover{
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+#blank{
+    height: 240px;
+}
+
+#footer{
+    height: 100px;
+    
+}
+#footer_upper{
+    background-color: #f8f9fa;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    color:#70757a ;
+    padding: 10px;
+}
+
+#footer_lower{
+   background-color: #f8f9fa ;
+    border: 1px solid gainsboro;
+   height: 51px;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+#footer .link_block2{
+   text-decoration: none;
+   color: #70757a;
+   padding: 10px;
+
+}
+
+.link_block2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+}
